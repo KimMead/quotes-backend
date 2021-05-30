@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+category = Category.create([{name: 'Motivational'}])
+quote = Quote.create([{category_id: 1, content: 'Dont stop when youre tired. Stop when youre done', author: 'Wesley Snipes'}])
